@@ -30,28 +30,28 @@ Make sure you have the following installed:
 
 2. Navigate to the project directory:
 
-   ```bash  
-   cd signup
-   
+```bash  
+cd signup
+```
 3. Install the required dependencies:
 
-   ```bash  
-   npm install  
-
+```bash  
+npm install  
+```
 4. Start JSON Server:
 
 In a separate terminal, run:
 
-   ```bash  
-   npx json-server --watch db.json
+```bash  
+npx json-server --watch db.json
 ```
 This will create a mock REST API based on the `db.json` file included in the project.
 
 5. Run the React application:
 
-   ```bash  
-   npm start
-   
+```bash  
+npm start
+```   
 Your application should now be running on http://localhost:3000.
 
 How to Use
